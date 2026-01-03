@@ -1,115 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nexvolt Systems</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Nexvolt Systems builds reliable capacitive touch-based electrical control systems.">
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Meta -->
+    <meta name="description" content="Nexvolt Systems designs smart touch-based electrical switchboards and embedded hardware solutions." />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<header class="header">
-    <div class="container header-flex">
-        <div class="logo">NEXVOLT <span>SYSTEMS</span></div>
+<!-- =========================================================
+     HEADER
+========================================================= -->
+<header>
+    <div class="container nav">
+        <div class="logo">Nexvolt Systems</div>
         <nav>
-            <a href="#about">About</a>
+            <a href="#products">Products</a>
             <a href="#technology">Technology</a>
-            <a href="#status">Status</a>
+            <a href="#about">About</a>
             <a href="#contact">Contact</a>
         </nav>
     </div>
 </header>
 
+<!-- =========================================================
+     HERO
+========================================================= -->
 <section class="hero">
     <div class="container">
-        <h1>
-            Engineering<br>
-            Reliable Electrical Control
-        </h1>
+        <div class="hero-tag">SMART POWER • EMBEDDED SYSTEMS</div>
+        <h1>Next-Generation Touch Switchboards</h1>
         <p>
-            Nexvolt Systems develops capacitive touch switch platforms
-            focused on safety, stability, and real-world electrical conditions.
+            Nexvolt Systems builds reliable, touch-based electrical switchboards and smart
+            control hardware engineered for modern homes and commercial spaces.
         </p>
-        <div class="hero-tag">
-            Product under development
+    </div>
+</section>
+
+<!-- =========================================================
+     PRODUCTS
+========================================================= -->
+<section id="products" class="section">
+    <div class="container">
+        <h2 class="section-title">Products</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Touch Switchboard</h3>
+                <p>
+                    Capacitive touch-based modular switchboards with high noise immunity,
+                    long life, and premium glass-panel integration.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Smart Relay Modules</h3>
+                <p>
+                    High-reliability relay and solid-state switching modules designed for
+                    seamless integration with touch interfaces.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Embedded Control Units</h3>
+                <p>
+                    Custom microcontroller-based control boards optimized for safety,
+                    scalability, and long-term deployment.
+                </p>
+            </div>
         </div>
     </div>
 </section>
 
+<!-- =========================================================
+     TECHNOLOGY
+========================================================= -->
+<section id="technology" class="section">
+    <div class="container">
+        <h2 class="section-title">Technology</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Capacitive Touch</h3>
+                <p>
+                    Advanced capacitive sensing with robust firmware tuning to ensure
+                    accurate touch detection even through thick acrylic or glass panels.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Electrical Safety</h3>
+                <p>
+                    Designs focused on isolation, surge protection, and compliance with
+                    electrical safety principles for long-term reliability.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Modular Architecture</h3>
+                <p>
+                    Hardware designed with modularity in mind, enabling flexible product
+                    scaling and easy customization.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
 <section id="about" class="section">
     <div class="container">
-        <div class="card">
-            <h2>About Nexvolt</h2>
-            <p>
-                Nexvolt Systems is a hardware-focused technology venture working on
-                next-generation touch-controlled electrical interfaces.
-            </p>
-            <p>
-                Our designs prioritize electrical correctness, isolation,
-                and long-term reliability over unnecessary features.
-            </p>
-        </div>
+        <h2 class="section-title">About Nexvolt Systems</h2>
+
+        <p style="max-width: 720px; color: var(--text-secondary);">
+            Nexvolt Systems is a hardware-focused startup dedicated to building intelligent,
+            touch-controlled electrical systems. Our mission is to combine robust embedded
+            engineering with refined industrial design to deliver dependable smart power
+            solutions.
+        </p>
     </div>
 </section>
 
-<section id="technology" class="section dark">
-    <div class="container grid-2">
-        <div class="card">
-            <h2>Core Technology</h2>
-            <ul>
-                <li>Capacitive touch sensing</li>
-                <li>Isolated low-voltage control</li>
-                <li>Noise-robust PCB layout</li>
-                <li>Fail-safe output behavior</li>
-            </ul>
-        </div>
-
-        <div class="card highlight">
-            <h2>Design Focus</h2>
-            <ul>
-                <li>Electrical safety first</li>
-                <li>No dependency on cloud</li>
-                <li>Designed for Indian mains</li>
-                <li>Manufacturing-ready hardware</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section id="status" class="section">
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+<section id="contact" class="section">
     <div class="container">
-        <div class="card">
-            <h2>Development Status</h2>
-            <ul>
-                <li>Touch sensing architecture finalized</li>
-                <li>Electrode geometry optimization ongoing</li>
-                <li>LED indication & optics in progress</li>
-                <li>PCB layout refinement underway</li>
-            </ul>
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-card">
+            <p>Email: contact@nexvoltsystems.com</p>
+            <p>Location: India</p>
         </div>
     </div>
 </section>
 
-<section id="contact" class="section dark">
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+<footer>
     <div class="container">
-        <div class="card contact-card">
-            <h2>Contact</h2>
-            <p>
-                For technical discussions, collaboration,
-                or early access inquiries:
-            </p>
-            <p class="contact">
-                contact@nexvoltsystems.com<br>
-                India
-            </p>
-        </div>
+        © 2026 Nexvolt Systems. All rights reserved.
     </div>
-</section>
-
-<footer class="footer">
-    © 2026 Nexvolt Systems
 </footer>
 
 </body>
